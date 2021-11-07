@@ -1,4 +1,3 @@
-import 'package:flutter/animation.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sqflite/sqflite.dart';
@@ -6,7 +5,6 @@ import 'package:todo_app/todoScreens/ArchiveScreen.dart';
 import 'package:todo_app/todoScreens/DoneScreen.dart';
 import 'package:todo_app/todoScreens/TasksScreen.dart';
 
-import 'data.dart';
 
 abstract class TasksState {}
 
